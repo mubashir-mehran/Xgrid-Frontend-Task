@@ -1,0 +1,85 @@
+.user_table_container {
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+  margin-left: 10px;
+  box-sizing: border-box;
+  background-color: white;
+}
+.user_table_container h2 {
+  color: #333333;
+  font-size: 23px;
+  font-weight: 400;
+}
+.user_table_container p {
+  color: #666666;
+  font-size: 13px;
+  font-weight: 500;
+  padding-bottom: 30px;
+}
+
+.total_entries {
+  border: 1px solid #d9d9d9;
+  padding: 5px 40px 5px 5px;
+}
+.user_table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+.add_button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.user_table th,
+.user_table td {
+  text-align: center;
+}
+
+.user_table th {
+  color: #566a7f;
+  font-size: 12px;
+}
+.user_table td {
+  color: #798899;
+}
+
+.user_table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.entries p {
+  color: #666666;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.pagination_num button {
+  background-color: #f7f7f7 !important;
+  color: #798899;
+}
+.pagination_num span {
+  padding: 0px 10px;
+  background: #f7f7f7;
+}
+.table_data td {
+  padding: 20px;
+}
+.profile_img {
+  border-radius: 50px;
+}
+.image_profile {
+  display: flex;
+  align-items: center;
+}
+.spinner {
+  display: flex;
+  justify-content: center;
+}
